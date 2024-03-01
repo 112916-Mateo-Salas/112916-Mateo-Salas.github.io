@@ -1,0 +1,63 @@
+/* SECCION DE INICIO */
+.inicio{
+    background:linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(/img/fondo.jpg);
+    background-size: cover;/*redimensiona la imagen de fondo para que quede bien*/
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width:350px ;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.contenedor-img {
+    padding-top: 60px;
+    
+}
+.inicio .contenido-banner .contenedor-img img{
+    max-width: 80%;
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+    border: 5px solid #1CB698;
+    
+}
+.inicio .contenido-banner h1{
+    margin-top: 20px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+
+.inicio .contenido-banner h1:hover{
+    color: #1CB698;
+    transition: .5s;
+}
+
+.inicio .contenido-banner h2{    
+    margin-top: 0px;
+    font-size: 15px;
+    
+}
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin:30px 5px ;
+    font-size: 20px;
+    transition: .3s;    
+    cursor: pointer;
+
+}
+.inicio .contenido-banner .redes a:hover{ /*Cuando se posa por encma del icono de Reds*/
+    background-color: #1CB698;
+}

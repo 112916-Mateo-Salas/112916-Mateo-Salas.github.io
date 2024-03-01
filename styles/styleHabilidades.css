@@ -1,0 +1,147 @@
+/* SECCION HABILIDADES */
+.skills{
+    background-color: #252a2e;
+    color: #fff;
+    padding: 50px 20px;
+}
+.skills .contenido-section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    transition: .3s;
+}
+.skills .contenido-section .fila{
+    display: flex;
+}
+.skills .contenido-section .fila .col{
+    width: 33%;
+    padding: 0 20px;
+}
+.skills .contenido-section .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    padding: 25px;    
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+   /* margin-top: 10px;*/
+}
+.skills .skill .icon{
+    width: 10%;
+    border-radius: 25%;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;    
+    background-color: #1CB698;
+    line-height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .cshard{
+    width: 0%;
+    animation: 2s cshard forwards;
+}
+@keyframes cshard{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.skills .skill .net{
+    width: 0%;
+    animation: 2s net forwards;
+}
+@keyframes net{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .aspnet{
+    width: 0%;
+    animation: 2s aspnet forwards;
+}
+@keyframes aspnet{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .netcore{
+    width: 0%;
+    animation: 2s netcore forwards;
+}
+@keyframes netcore{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s angular forwards;
+}
+@keyframes angular{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.skills .skill .sqlserver{
+    width: 0%;
+    animation: 2s sqlserver forwards;
+}
+@keyframes sqlserver{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+.skills .skill .plsql{
+    width: 0%;
+    animation: 2s plsql forwards;
+}
+@keyframes plsql{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
