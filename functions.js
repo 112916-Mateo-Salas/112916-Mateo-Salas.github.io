@@ -104,9 +104,10 @@ function mostrarMensajeCopiado(){
     }, 2000);
 }
 function VerCertificado(id){
-    if (id == 'juego')
-    window.open('img/certificados/Certificado-videojuegos-Salas.png');
+    
+    document.getElementById("img").src='img/certificados/'+id+'.png';
+    // document.getElementById("VerCertificado").classList=" show"; 
 }
 function VerPortfolio(){
-    window.open('https://github.com/Mateosalas07/WebPersonal.git');
+    window.open('https://github.com/Mateosalas07/WebPersonal');
 }
