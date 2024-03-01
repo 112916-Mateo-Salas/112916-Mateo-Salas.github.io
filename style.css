@@ -82,6 +82,19 @@ html{
     border-radius: 5px;
 }
 
+.modal .modal-content{
+    background-color: #4d4f51;
+    color:#fff;
+}
+.modal .modal-header{
+    border-bottom: var(--bs-modal-header-border-width) solid #3b4044;
+}
+.modal .modal-footer{
+    border-top: var(--bs-modal-footer-border-width) solid #3b4044;
+}
+.modal .modal-header  .btn-close{
+    background-color: red;
+}
 /* FOOTER */
 footer{
     background-color: #252a2e;
