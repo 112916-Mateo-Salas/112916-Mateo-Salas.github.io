@@ -64,7 +64,7 @@ function mostrarTitulo(id, idConector){
     
 }
 function AbrirCV(){
-    window.open('docs/Mateo Salas.pdf','_blanck', 'width=800,height=600');
+    window.open('docs/MateoSalas.pdf','_blanck', 'width=800,height=600');
 
 }
 function LinkedIn(){
